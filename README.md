@@ -39,24 +39,21 @@ AI is reshaping software testing. This list collects tools, platforms, and resou
 Tools that generate test cases from code, requirements, or user behavior using AI.
 
 - [Qodo-Cover](https://github.com/qodo-ai/qodo-cover) 🆓 - AI-powered tool for automated test generation and code coverage enhancement.
-- [CodiumAI](https://www.codium.ai/) 💰 - AI assistant generating meaningful tests from code context.
+- [CodiumAI / Qodo](https://www.qodo.ai/) 💰 - AI assistant generating meaningful tests from code context.
 - [Diffblue Cover](https://www.diffblue.com/) 💰 - Autonomous Java unit test writer using reinforcement learning.
-- [Ponicode](https://www.ponicode.com/) 💰 - AI-driven unit test generation, now part of CircleCI.
-- [GoCodeo](https://www.gocodeo.com/) 🆓💰 - VS Code extension that generates production-ready code and tests with multiple LLM backends.
 - [GitHub Copilot](https://github.com/features/copilot) 💰 - AI pair programmer that generates test code in Playwright, Cypress, Selenium across editors.
 - [Cursor](https://www.cursor.com/) 💰 - AI-first code editor with strong test generation capabilities for major frameworks.
 - [Claude Code](https://www.anthropic.com/claude-code) 💰 - Anthropic's terminal-based agentic coding assistant, useful for test suite generation and refactoring.
-- [TestGPT](https://www.codium.ai/) 💰 - CodiumAI's flagship model trained specifically for code testing.
 
 ## MCP-Based Testing
 
 Tools and servers that use the Model Context Protocol to give AI agents browser control and testing capabilities.
 
 - [Playwright MCP](https://github.com/microsoft/playwright-mcp) 🆓 - Official Playwright MCP server giving AI agents full browser control through structured accessibility snapshots.
-- [Playwright CLI](https://www.npmjs.com/package/@playwright/cli) 🆓 - Token-efficient CLI for coding agents like Claude Code and GitHub Copilot, with installable skills.
-- [Bug0](https://bug0.com/) 💰 - Agentic testing platform built on the Planner, Generator, Healer pattern with MCP integration.
-- [Chrome DevTools MCP](https://github.com/ChromeDevTools/chrome-devtools-mcp) 🆓 - Chrome DevTools as an MCP server for AI agents.
-- [Browserbase MCP](https://github.com/browserbase/mcp-server-browserbase) 🆓 - MCP server for cloud-based browser automation.
+- [Playwright CLI](https://github.com/microsoft/playwright-cli) 🆓 - Token-efficient CLI for coding agents like Claude Code and GitHub Copilot, with installable skills.
+- [Chrome DevTools MCP](https://github.com/ChromeDevTools/chrome-devtools-mcp) 🆓 - Official MCP server from the Chrome DevTools team, with 26 tools for browser automation, debugging, and performance analysis.
+- [ExecuteAutomation Playwright MCP](https://github.com/executeautomation/mcp-playwright) 🆓 - Community Playwright MCP server with API testing support, 143 device emulation profiles.
+- [BrowserTools MCP](https://github.com/AgentDeskAI/browser-tools-mcp) 🆓 - Browser monitoring and console log access for AI agents via Chrome extension.
 
 ## Self-Healing Test Frameworks
 
@@ -67,7 +64,7 @@ Tools that automatically repair broken test locators and adapt to UI changes.
 - [Functionize](https://www.functionize.com/) 💰 - AI-powered tests that adapt without selectors.
 - [TestSigma](https://testsigma.com/) 💰 - AI-driven low-code platform with self-healing across web, mobile, and API.
 - [Tricentis Tosca](https://www.tricentis.com/products/automate-continuous-testing-tosca) 💰 - Enterprise platform with Vision AI for resilient automation.
-- [Perfecto](https://www.perfecto.io/) 💰 - Cloud testing platform with self-healing locators (formerly TestCraft).
+- [Perfecto](https://www.perfecto.io/) 💰 - Cloud testing platform with self-healing locators.
 
 ## AI-Powered E2E Platforms
 
@@ -79,10 +76,10 @@ End-to-end testing platforms with AI at the core.
 - [Autify](https://autify.com/) 💰 - No-code end-to-end testing platform with AI-driven maintenance.
 - [Reflect](https://reflect.run/) 💰 - No-code regression testing with AI-assisted authoring.
 - [QA Wolf](https://www.qawolf.com/) 💰 - AI-powered QA-as-a-service generating Playwright tests at scale.
+- [Bug0](https://bug0.com/) 💰 - Agentic testing platform built on the Planner, Generator, Healer pattern with MCP integration.
 - [Checksum](https://checksum.ai/) 💰 - Generates Playwright and Cypress tests from real user sessions.
 - [Rainforest QA](https://www.rainforestqa.com/) 💰 - No-code testing platform with AI-driven test generation.
 - [Katalon Studio](https://katalon.com/) 🆓💰 - Test automation platform with AI features including TrueTest and Visual Testing.
-- [Heal](https://www.heal.dev/) 💰 - AI test maintenance and generation platform.
 
 ## Mobile AI Testing
 
@@ -113,10 +110,11 @@ Visual regression and UI verification powered by AI.
 Write tests using plain English (or other natural languages).
 
 - [Shortest](https://github.com/anti-work/shortest) 🆓 - QA via natural language AI tests, built on Playwright.
-- [Magnitude](https://github.com/magnitudedev/magnitude) 🆓 - AI testing framework that lets you write E2E tests in plain language.
+- [Magnitude](https://github.com/magnitudedev/magnitude) 🆓 - AI-native, vision-first testing framework that lets you write E2E tests in plain language.
 - [Auto Playwright](https://github.com/lucgagan/auto-playwright) 🆓 - Run Playwright tests with AI through plain text prompts.
 - [ZeroStep](https://zerostep.com/) 💰 - Plain English test steps that compile to Playwright actions.
-- [Passmark](https://github.com/syedfazle/passmark) 🆓 - Open-source AI regression testing framework built on Playwright with plain English tests.
+- [Passmark](https://github.com/bug0inc/passmark) 🆓 - Open-source AI regression testing framework on Playwright with intelligent caching, auto-healing, and multi-model verification.
+- [Midscene.js](https://github.com/web-infra-dev/midscene) 🆓 - AI-driven UI automation with natural language commands.
 
 ## LLM-as-Judge Evaluation
 
@@ -136,7 +134,6 @@ Use LLMs to evaluate test outputs, assertions, and quality.
 
 AI for failure analysis, flaky test detection, and reporting.
 
-- [TestDino](https://www.testdino.com/) 💰 - Test reporting platform with AI-classified failures and centralized dashboards.
 - [Allure TestOps](https://qameta.io/) 💰 - Test management with AI-driven analytics and flaky detection.
 - [ReportPortal](https://github.com/reportportal/reportportal) 🆓💰 - Open source results management with ML-based failure clustering.
 - [Sealights](https://www.sealights.io/) 💰 - Quality intelligence platform using ML for test gap analysis.
@@ -176,15 +173,16 @@ AI-enhanced performance, load, and chaos testing.
 
 AI-powered accessibility scanners and remediation tools.
 
-- [Axe DevTools AI](https://www.deque.com/axe/devtools/) 💰 - AI-powered accessibility scanner from Deque.
+- [Axe DevTools](https://www.deque.com/axe/devtools/) 💰 - AI-powered accessibility scanner from Deque.
 - [Evinced](https://www.evinced.com/) 💰 - AI-driven accessibility testing platform.
 - [UserWay](https://userway.org/) 🆓💰 - AI-powered WCAG compliance scanner.
+- [Pa11y](https://github.com/pa11y/pa11y) 🆓 - Open-source automated accessibility testing tool.
 
 ## API Testing with AI
 
 AI features for API testing, schema generation, and contract validation.
 
-- [Postman AI Agent Builder](https://www.postman.com/postman-labs/postman-flows-ai/) 💰 - AI-assisted API test generation in Postman.
+- [Postman](https://www.postman.com/) 🆓💰 - AI-assisted API test generation and contract validation.
 - [Keploy](https://github.com/keploy/keploy) 🆓 - Generates API tests and mocks from real traffic, with AI assertion generation.
 - [Stepci](https://github.com/stepci/stepci) 🆓💰 - API testing framework with AI-suggested assertions.
 
@@ -199,7 +197,6 @@ Tools to test LLM applications themselves (security, robustness, hallucination).
 - [Giskard](https://github.com/Giskard-AI/giskard) 🆓💰 - Testing framework for LLMs and ML models.
 - [PyRIT](https://github.com/Azure/PyRIT) 🆓 - Microsoft's Python Risk Identification Tool for generative AI.
 - [Lakera Guard](https://www.lakera.ai/) 💰 - Real-time prompt injection and jailbreak detection.
-- [Robust Intelligence](https://www.robustintelligence.com/) 💰 - AI security and validation platform.
 - [WhyLabs](https://whylabs.ai/) 💰 - ML observability and LLM monitoring.
 - [Confident AI](https://www.confident-ai.com/) 💰 - LLM testing platform built around DeepEval.
 
@@ -210,11 +207,9 @@ Browser automation libraries designed for or commonly used by AI agents.
 - [Browser Use](https://github.com/browser-use/browser-use) 🆓 - Make websites accessible to AI agents.
 - [Stagehand](https://github.com/browserbase/stagehand) 🆓 - AI browser automation with predictable yet flexible APIs.
 - [Skyvern](https://github.com/Skyvern-AI/skyvern) 🆓💰 - Automate browser-based workflows using LLMs and computer vision.
-- [Steel](https://github.com/steel-dev/steel-browser) 🆓 - Open-source browser API for AI agents.
-- [Anchor Browser](https://anchorbrowser.io/) 💰 - Browser-as-a-service designed for AI agents.
-- [Hyperbrowser](https://hyperbrowser.ai/) 💰 - Headless browser infrastructure for AI workflows.
-- [Patchright](https://github.com/Kaliiiiiiiiii-Vinyzu/patchright) 🆓 - Patched Playwright for stealth automation.
+- [Steel Browser](https://github.com/steel-dev/steel-browser) 🆓 - Open-source browser API for AI agents.
 - [Browserbase](https://www.browserbase.com/) 💰 - Cloud browser infrastructure with natural language automation.
+- [Patchright](https://github.com/Kaliiiiiiiiii-Vinyzu/patchright) 🆓 - Patched Playwright for stealth automation.
 
 ## Articles and Talks
 
@@ -223,8 +218,9 @@ Essential reading on AI in software testing.
 - [Best AI Test Generation Tools for Playwright in 2026](https://testdino.com/blog/ai-test-generation-tools/) - Practical guide to choosing AI test generators.
 - [Playwright Test Agents: AI Testing Explained](https://bug0.com/blog/playwright-test-agents) - Deep dive into the Planner, Generator, Healer pattern.
 - [Modern Test Automation with LLM and Playwright MCP](https://kailash-pathak.medium.com/modern-test-automation-with-ai-llm-and-playwright-mcp-model-context-protocol-0c311292c7fb) - Setting up MCP for test automation.
-- [The State of AI in Software Testing](https://www.practitest.com/state-of-testing/) - Annual industry report.
+- [20 Open-Source Projects Redefining AI + Playwright Testing](https://bug0.com/blog/20-underdog-open-source-projects-pushing-limits-ai-playwright) - Roundup of emerging AI Playwright projects.
 - [Best 12 Generative AI Testing Tools 2026](https://hashnode.com/blog/best-generative-ai-testing-tools-2026) - Ranked review of top GenAI testing platforms.
+- [Give your AI eyes: Introducing Chrome DevTools MCP](https://addyosmani.com/blog/devtools-mcp/) - Deep dive on Chrome DevTools MCP by Addy Osmani.
 - [The Test Pyramid in the AI Era](https://martinfowler.com/articles/practical-test-pyramid.html) - Classic reference, still relevant.
 
 ## Courses and Tutorials
@@ -232,14 +228,12 @@ Essential reading on AI in software testing.
 Learning resources for AI-powered testing.
 
 - [Generative AI in Software Testing](https://www.udemy.com/course/generative-ai-in-software-testing/) - Comprehensive course on Copilot, Claude Code, MCP, and AI agents for QA.
-- [Playwright MCP Tutorial](https://playwright.dev/docs/mcp) - Official documentation for Playwright MCP setup and usage.
 - [Test Automation University](https://testautomationu.applitools.com/) - Free courses including AI testing modules from Applitools.
-- [The AI-Powered QA Engineer's Handbook](https://github.blog/ai-and-ml/) - GitHub's resources on AI-assisted QA.
+- [Chrome DevTools MCP Tutorial](https://www.datacamp.com/tutorial/chrome-devtools-mcp) - DataCamp's hands-on guide to Chrome DevTools MCP with AI assistants.
 
 ## Newsletters and Communities
 
-- [AI Testing Weekly](https://www.aitestingweekly.com/) - Weekly newsletter on AI in testing.
-- [Software Testing Weekly](https://softwaretestingweekly.com/) - General testing newsletter with strong AI coverage.
+- [Software Testing Weekly](https://softwaretestingweekly.com/) - Weekly testing newsletter with strong AI coverage.
 - [Coding Jag](https://katalon.com/coding-jag) - Weekly newsletter covering AI, testing, and CI/CD.
 - [Test Guild](https://testguild.com/) - Podcast and community for automation testing.
 - [Ministry of Testing](https://www.ministryoftesting.com/) - Global testing community with AI-focused tracks.
@@ -256,6 +250,7 @@ Learning resources for AI-powered testing.
 - [awesome-ai-agent-testing](https://github.com/chaosync-org/awesome-ai-agent-testing) - Testing AI agents themselves.
 - [awesome-ai-pentest](https://github.com/insidetrust/awesome-ai-pentest) - AI-assisted penetration testing.
 - [awesome-llm-security](https://github.com/corca-ai/awesome-llm-security) - LLM security tools and resources.
+- [awesome-mutation-testing](https://github.com/theofidry/awesome-mutation-testing) - Mutation testing resources.
 
 ## Contributing
 
