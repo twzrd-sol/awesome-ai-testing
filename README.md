@@ -139,6 +139,7 @@ Use LLMs to evaluate test outputs, assertions, and quality.
 
 AI for failure analysis, flaky test detection, and reporting.
 
+- [agenttrace](https://github.com/luoyuctl/agenttrace) 🆓 - Local-first TUI and CLI for evaluating AI coding agent sessions with cost, token, latency, and failure regression gates.
 - [ReportPortal](https://github.com/reportportal/reportportal) 🆓💰 - Open source results management with ML-based failure clustering.
 - [Allure TestOps](https://qameta.io/) 💰 - Test management with AI-driven analytics and flaky detection.
 - [Sealights](https://www.sealights.io/) 💰 - Quality intelligence platform using ML for test gap analysis.
