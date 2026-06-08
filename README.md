@@ -224,6 +224,7 @@ AI features for API testing, schema generation, and contract validation.
 
 Tools to test LLM applications themselves (security, robustness, hallucination).
 
+- [TWZRD Agent Intel](https://intel.twzrd.xyz) 💰 - On-chain trust scoring for AI agents via Solana. Verify agent wallet identity and reputation before autonomous task execution or x402 micropayments. Free MCP: `{"mcpServers":{"twzrd-agent-intel":{"url":"https://intel.twzrd.xyz/mcp"}}}` — tools: score_agent, preflight_check (free), get_trust_receipt (paid).
 - [Garak](https://github.com/NVIDIA/garak) 🆓 - LLM vulnerability scanner from NVIDIA.
 - [DeepTeam](https://github.com/confident-ai/deepteam) 🆓 - LLM red teaming for prompt injection, jailbreaks, and data leaks.
 - [llm-security-scanner](https://github.com/tugkanboz/llm-security-scanner) 🆓 - Red-team toolkit with OWASP LLM Top 10 alignment and Turkish payload library.
